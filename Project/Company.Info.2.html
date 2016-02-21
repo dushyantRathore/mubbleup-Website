@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Company Info 2</title>
+<link href="Company Info 2.css" type="text/css" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="bootstrap.css" />
+    <link rel="stylesheet" href="bootstrap-chosen-variables.less">
+    <link rel="stylesheet" href="bootstrap-chosen-variables.scss">
+      <link rel="stylesheet" href="bootstrap-chosen.css">
+      <link rel="stylesheet" href="bootstrap-chosen.less">
+      <link rel="stylesheet" href="bootstrap-chosen.scss">
+      
+    <style>
+      body { margin-bottom: 144px; }
+      header { margin: 72px 0 36px; }
+      header h1 { font-size: 54px; }
+    </style>
+    <script src="jquery.min.js"></script>
+    <script src="chosen.jquery.js"></script>
+      
+    <script>
+      $(function() {
+        $('.chosen-select').chosen();
+        $('.chosen-select-deselect').chosen(function(){allow_single_deselect: true});
+      });
+    
+        var a="";
+        var b;
+        var res;
+        
+        function f1()
+        {
+            if(position!=undefined)
+            { res=a.search(document.getElementById('s').options[position].value);
+             
+                if(res!=-1)
+                {
+                    //alert(res);
+                    if(res==0)
+                    {
+                    a=a.replace(document.getElementById('s').options[position].value,"");
+                    }
+                    else
+                    {
+                a=a.replace(' '+document.getElementById('s').options[position].value,"");
+                    }
+                }
+            }
+            b=document.getElementById('s').value;
+            document.getElementById('s').value=" ";
+            a=a+b+' ';
+           // alert(a);
+            //document.getElementById('d').innerHTML=a;
+            
+            document.getElementsByName('interests').value=a;
+           // alert(document.getElementsByName('interests').value);
+        }
+        
+    </script>
+
+</head>
+    
+
+<body>
+<div class="header">
+<a href="Index Page.html">
+<img src="logo.png" height="300px" width="400px" style="position:relative; bottom:55px">
+</a>
+</div>
+
+<div class="background">
+
+<div class="container">
+<br><br><br><br><br>
+<div class="progress">
+<div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar" aria-valuenow="33.3" aria-valuemin="0" aria-valuemax="100" style="width:66.6%">66.6% Complete
+</div>
+</div>
+</div>
+
+<div class="img">
+<div class="img1">
+<img src="Personal Information Images/arrow.png" height="90px" width="90px">
+</div>
+
+<div class="img2">
+<img src="Personal Information Images/arrow.png" height="90px" width="90px">
+</div>
+
+<div class="img3">
+<img src="Personal Information Images/arrow-light-blue-md.png" height="90px" width="90px">
+</div>
+</div>
+
+<div class="fields">
+<h2><b>Fields</b></h2>
+</div>
+
+<div class="container">
+
+<div class="col-lg-3" style="position:absolute;top:330px;width:800px;left:290px;">
+
+
+
+<select data-placeholder="Choose your Fields of Work" class="chosen-select" multiple tabindex="4" id="s" onchange="f1()" name="n1">
+
+<option value=""></option>
+<option value="1">Field 1</option>
+<option value="2">Field 2</option>
+<option value="3">Field 3</option>
+<option value="4">Field 4</option>
+<option value="5">Field 5</option>
+<option value="6">Field 6</option>
+<option value="7">Field 7</option>
+<option value="8">Field 8</option>
+<option value="9">Field 9</option>
+<option value="10">Field 10</option>
+
+</select>
+            
+<input type="text" name="interests" style="visibility:hidden">
+</div>
+</div>
+</div>
+     
+
+<a href="Personal Info.html" target="_parent"><input type="submit" class="button2" value="PREVIOUS" style="background:#08A3D2;border-width:0px"></a>
+
+<a href="#" target="_parent"><input type="submit" class="button1" value="NEXT" style="background:#08A3D2;border-width:0px"></a>
+
+<div id="footer">
+<p>
+<font color="#C7C7C7" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" style="opacity:0.3" size="2">
+© 2007 - 2015 Webligo
+</font><br><br>
+<a href="#">
+<img src="Main Page Images/Tech stars.png" style="opacity:0.1" height="70" width="150" >
+</a>
+</p>
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Free Trials
+</font><br><br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+SE Cloud free trial
+</a2><br><br>
+<a2 class="specialeffects">
+SE PHP free trial
+</a2>
+</font>
+</p>
+
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Company
+</font><br><br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+Contact us
+</a2><br><br>
+<a2 class="specialeffects">
+Affiliate program
+</a2><br><br>
+<a2 class="specialeffects">
+Reseller program
+</a2><br><br>
+<a2 class="specialeffects">
+Meet our team
+</a2><br><br>
+<a2 class="specialeffects">
+Jobs
+</a2><br><br>
+<a2 class="specialeffects">
+Terms and Privacy
+</a2>
+</font>
+</p>
+
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Resources
+</font><br><br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+Sign In
+</a2><br><br>
+<a2 class="specialeffects">
+Pricing
+</a2><br><br>
+<a2 class="specialeffects">
+Add-on marketplace
+</a2><br><br>
+<a2 class="specialeffects">
+Support & FAQ
+</a2><br><br>
+<a2 class="specialeffects">
+Find developers
+</a2><br><br>
+<a2 class="specialeffects">
+Our Company PHP 4.9 Roadmap 
+</a2>
+</font>
+</p>
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Articles
+</font><br><br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+How to build a social network
+</a2><br><br>
+<a2 class="specialeffects">
+Building an online community
+</a2><br><br>
+<a2 class="specialeffects">
+How to reach your audience
+</a2><br><br>
+<a2 class="specialeffects">
+Video tutorials
+</a2><br><br>
+<a2 class="specialeffects">
+Creating Custom Themes
+</a2>
+</font>
+</p>
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Connect with us!
+</font><br><br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+Blog
+</a2><br><br>
+<a2 class="specialeffects">
+Twitter
+</a2><br><br>
+<a2 class="specialeffects">
+Facebook
+</a2><br><br>
+<a2 class="specialeffects">
+Youtube
+</a2><br><br>
+<a2 class="specialeffects">
+Google Plus 
+</a2><br><br>
+<a2 class="specialeffects">
+Newsletter
+</a2>
+</font>
+
+</p>
+</div>
+
+</body>
+</html>

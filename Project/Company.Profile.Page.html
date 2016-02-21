@@ -1,0 +1,320 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="Company Profile.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+ function hide(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'block') ? 'none' : 'none';
+ }
+</script>
+
+<script type="text/javascript">
+ function show(id) {
+    var e = document.getElementById(id);
+    e.style.display = (e.style.display == 'none') ? 'block' : 'block';
+ }
+</script>
+
+<style type="text/css">
+	.bs-example{
+    	margin: 20px;
+    }
+    hr{
+        margin: 60px 0;
+    }
+</style>
+
+<title>Company Profile Page</title>
+</head>
+
+<body background="background.jpg" style="opacity:0.9">
+
+<div class="header">
+<a href="Index Page.html">
+<img src="logo.png" height="300px" width="400px" style="position:relative; bottom:55px">
+</a>
+</div>
+
+<form id="form1" action="">
+<input type="search" size="35" style="position:absolute;top:30px;right:350px">
+<input type="submit" value="Search" style="background-color:#1088CB;color:#FFFFFF;border-radius:2px;position:absolute;top:30px;right:280px"></form>
+
+<div class="bs-example"  style="position:absolute;top:1px;right:10px">
+<ul class="nav nav-pills">
+<li class="dropdown pull-right">
+<a href="#" data-toggle="dropdown" class="dropdown-toggle" style="background-color:#1088CB;color:#FFFFFF">
+Account<b class="caret">
+</b>
+</a>
+<ul class="dropdown-menu">
+<li><a href="#">Profile</a></li>
+<li><a href="#">Settings</a></li>
+<li class="divider"></li>
+<li><a href="Index Page.html">Log Out</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+<div class="section1"></div>
+<div class="side1">
+<a href="Company Profile Page.html">
+<img class="img1" src="company profile.jpg">
+</a>
+<br>
+<br>
+<p class="p1"><b><font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;COMPANY NAME</font></b><br><br>
+</p>
+<br>
+</div>
+
+<div class="container">
+<a href="javascript:show('Network-content')">
+<button type="button" class="btn btn-info btn-lg" style="background:#1D1D1D;border:none; width:250px; border-radius:15px" onclick="hide('vid');">
+Connections
+</button>
+</a>
+</div>
+
+
+<div id="Network-content" style="display:none">
+<h3 align="center"><b>NETWORKS</b></h3>
+<ul class="ulstyle">
+<li class="ulstyle_li">
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+<div class="img_name"><img class="img" src="profile pic.jpg"><br>NAME</div>
+</li>
+</ul>
+</div>
+
+
+<div class="container1">
+<button type="button" class="btn btn-info btn-lg" style="background:#1D1D1D;border:none; width:250px; border-radius:15px; padding-top:7.5px" data-toggle="modal" data-target="#myModal">
+Add Product
+</button>
+
+<div class="modal fade" id="myModal" role="dialog">
+<div class="modal-dialog" >
+<div class="modal-content" style="height:550px; width:600px; top:60px; left:150px ; border-style:outset ; border-radius: 10px" >
+
+<h3 align="center"><b>FORM</b></h3>
+
+
+</div>
+</div>
+</div>  
+</div>
+
+<div class="box2">
+<p class="p2"><font size="+1"><b>PROJECTS/REACH</b></font></p>
+</div>
+
+<div id="vid">
+<br>
+<video width="400" height="250" controls autoplay loop style="position:relative;left:100px;">
+<source src="" type="video/mp4"></source>
+</video> 
+</div>
+
+<div id="snippet">
+<iframe src="http://dtu.ac.in" height="400px" width="675px"></iframe>
+
+</div>
+
+<div id="footer">
+<p>
+<font color="#C7C7C7" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" style="opacity:0.3" size="2">
+© 2007 - 2015 Webligo
+</font>
+<br>
+<br>
+<a href="#">
+<img src="Tech stars.png" style="opacity:0.1" height="70" width="150" >
+</a>
+</p>
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Free Trials
+</font>
+<br>
+<br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+SE Cloud free trial
+</a2>
+<br>
+<br>
+<a2 class="specialeffects" >
+SE PHP free trial
+</a2>
+</font>
+</p>
+
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Company
+</font>
+<br>
+<br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+Contact us
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Affiliate program
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Reseller program
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Meet our team
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Jobs
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Terms and Privacy
+</a2>
+</font>
+</p>
+
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Resources
+</font>
+<br>
+<br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+Sign In
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Pricing
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Add-on marketplace
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Support & FAQ
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Find developers
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Our Company PHP 4.9 Roadmap 
+</a2>
+</font>
+</p>
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Articles
+</font>
+<br>
+<br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+How to build a social network
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Building an online community
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+How to reach your audience
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Video tutorials
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Creating Custom Themes
+</a2>
+</font>
+</p>
+
+<p>
+<font color="#F9F9F9" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif">
+Connect with us!
+</font>
+<br>
+<br>
+<font color="#9F9F9F" face="Segoe, Segoe UI, DejaVu Sans, Trebuchet MS, Verdana, sans-serif" size="2">
+<a2 class="specialeffects">
+Blog
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Twitter
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Facebook
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Youtube
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Google Plus 
+</a2>
+<br>
+<br>
+<a2 class="specialeffects">
+Newsletter
+</a2>
+</font>
+
+</p>
+</div>
+</body>
+
+</html>

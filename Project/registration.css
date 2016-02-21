@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*** Form Section ***/
+#form_container
+{
+	position:absolute;
+	left: 295px;
+	top:360px;
+	height:auto;
+	margin: 0em auto;
+	padding:1em;
+	color:#444;
+	line-height: 24px;
+	-webkit-box-shadow: rgba(0,0,0,0.1) 10px 0px 10px, rgba(0,0,0,0.1) -10px 0px 10px; /* Chrome, Safari */
+	-moz-box-shadow: rgba(0,0,0,0.1) 10px 0px 10px, rgba(0,0,0,0.1) -10px 0px 10px; /* Firefox */
+    -o-box-shadow: rgba(0,0,0,0.1) 10px 0px 10px, rgba(0,0,0,0.1) -10px 0px 10px; /* Opera */
+	box-shadow: rgba(0,0,0,0.1) 10px 0px 10px, rgba(0,0,0,0.1) -10px 0px 10px; /* Standard syntax */
+}
+
+
+/*~~~ Styling of input fields ~~~*/
+input, option, select
+{
+	font-size:14px;
+}
+
+textarea
+{
+	width:275px;
+	height:60px;
+	padding:5px 5px;
+}
+
+/* for submit button */
+input[type=submit]
+{
+	cursor:pointer; 
+	padding:5px 25px; 
+	background:rgba(0,0,0,0.9); 
+	border:1px solid rgba(0,0,0,.9);
+	
+	-webkit-border-radius: 10px; /* Chrome, Safari */
+	   -moz-border-radius: 10px; /* Firefox */
+	     -o-border-radius: 10px; /* Opera */
+			border-radius: 10px; /* Standard syntax */
+	color:rgba(255,255,255,1);
+	font-size:1.1em; 
+}

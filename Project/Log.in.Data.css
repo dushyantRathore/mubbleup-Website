@@ -1,0 +1,224 @@
+@charset "utf-8";
+/* CSS Document */
+.header
+{
+	 background-color:#161515;
+        float: right;
+        height: 80px;
+        left: 0;
+		top:0;
+		overflow: hidden;
+        position:absolute;
+        width: 100%;
+		min-width:1200px;
+		opacity:0.95;
+		align-content:center;
+}
+
+.background
+{
+	background:url(Images/Log%20in%20page%20background.jpg) 
+	no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+        float: right;
+        height: 700px;
+        left: 0;
+		top:80px;
+		overflow: hidden;
+        position:absolute;
+        width: 100%;
+		min-width:1200px;
+		opacity:0.2;
+-webkit-animation: mymove 1s ;
+    animation: mymove 1s ;
+}
+
+@-webkit-keyframes mymove {
+    to {left: 0;}
+    from{left: 100%;}
+}
+
+@keyframes mymove {
+    to {left: 0;}
+    from{left: 100%;}
+}
+
+
+.form{
+	background-color:#FFFFFF;
+        height: 500px;
+        left:35%;
+		top:150px;
+		width:400px;
+		height: 450px;
+		overflow: hidden;
+        position:absolute;
+		opacity:0.9;
+		border:outset;
+		border-color:#979797;
+		border-radius:10px;
+		border-width:4px;
+-webkit-animation: mymove1 1s ;
+    animation: mymove1 1s ;
+}
+
+@-webkit-keyframes mymove1 {
+    from {top: 0px;}
+    to {top: 150px;}
+}
+
+@keyframes mymove1 {
+    from {top: 0px;}
+    to {top: 150px;}
+}
+
+button1
+{
+  height: 17px;	
+  border: 0;
+  background:#08A3D2;
+  border-radius: 4px;
+  box-shadow: 0 2px 0 #006599;
+  color: #fff;
+  cursor: pointer;
+  font: inherit;
+  margin: 0;
+  outline: 0 ;
+  padding: 10px 135px;
+  transition: all .1s linear;
+  font-family: Arial;
+  overflow:hidden;
+  position:relative;
+  top:5px;
+  left:39px;
+  
+}
+
+button1:active
+{
+  box-shadow: 0 1px 0 #006599;
+  transform: translateY(2px);
+}
+
+button1:hover
+{ 
+    background-color:#1AC3D1;
+}
+
+button2
+{
+border-color:#000000;
+background:#08A3D2;
+box-shadow: 0 0 0 #006599;
+color: #fff;
+cursor: pointer;
+font: inherit;
+margin: 0;
+outline: 0 ;
+padding: 7px 72px;
+transition: all .1s linear;
+font-family: Arial;
+overflow:hidden;
+position:absolute;
+top:390px;
+align-content:center;
+left:50px;
+border-radius:10px;
+}
+
+button2:active 
+{
+  box-shadow: 0 0 0 #006599;
+  transform: translateY(3px);
+}
+
+button2:hover { 
+    background-color:#1AC3D1;
+}
+
+button3
+{
+border-color:#000000;
+background:#08A3D2;
+box-shadow: 0 0 0 #006599;
+color: #fff;
+cursor: pointer;
+font: inherit;
+margin: 0;
+outline: 0 ;
+padding: 7px 68px;
+transition: all .1s linear;
+font-family: Arial;
+overflow:hidden;
+position:absolute;
+top:340px;
+align-content:center;
+left:50px;
+border-radius:10px;
+}
+
+button3:active 
+{
+  box-shadow: 0 0 0 #006599;
+  transform: translateY(3px);
+}
+
+button3:hover { 
+    background-color:#1AC3D1;
+}
+
+#footer
+{
+background-color:#000000;
+        float: right;
+        height: 330px;
+        left: 0;
+		overflow: hidden;
+        position: absolute;
+        width: 100%;
+		opacity:0.9;
+		text-align:left;
+		top:700px;
+		bottom:0;
+		min-width:1200px;
+-webkit-animation: mymove2 1s ;
+    animation: mymove2 1s ;
+}
+
+@-webkit-keyframes mymove2 {
+    from {top: 0px;}
+    to {top: 700px;}
+}
+
+@keyframes mymove2 {
+    from {top: 0px;}
+    to {top: 700px;}
+}
+
+#footer p 
+{
+    box-sizing: border-box;
+    float: left;
+    padding: 1em;
+    width: 16.666%;
+}
+
+a,u
+{
+	text-decoration:none;
+	color:inherit;
+}
+
+a.specialeffects:hover
+ {
+  color:#FFFFFF;
+  text-decoration:none;
+}
+
+
+
+
+	

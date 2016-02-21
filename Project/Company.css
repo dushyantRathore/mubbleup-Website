@@ -1,0 +1,153 @@
+@charset "utf-8";
+/* CSS Document */
+.header
+{
+	 background-color:black;
+        float: right;
+        height: 80px;
+        left: 0;
+		right:0;
+		top:0;
+		overflow:hidden;
+        position:absolute;
+        width: 100%;
+		min-width:1200px;
+		opacity:0.95;
+		align-content:center;
+}
+
+.background
+{
+	top:80px;
+	height:850px;
+	background-image:url(triangular.png);
+}
+
+.userform
+{
+	background:#FFFFFF;
+	height:480px;
+	width:680px;
+	position:relative;
+	top:120px;
+	left:340px;
+	border-radius:20px;
+	border-style:outset;
+	border-width:5px;
+}
+
+.img
+{
+	height:100px;
+	width:900px;
+	position:absolute;
+	left:200px;
+}
+
+.img {
+   -webkit-animation: move 0.5s ;
+    animation: move 0.5s ;   
+   
+}
+
+@-webkit-keyframes move {
+        from {left: 0px;}
+    to {left: 200px;}
+}
+
+
+.img1
+{
+position:absolute;
+top:10px;
+left:20px;
+}
+
+
+.img2
+{
+position:absolute;
+top:10px;
+left:400px;
+}
+
+
+.img3
+{
+position:absolute;
+top:10px;
+left:800px;
+}
+
+
+
+.button1
+{
+box-shadow: 0 3px 0 #006599;
+cursor: pointer;
+font: inherit;
+margin: 0;
+outline: 0 ;
+transition: all .1s linear;
+font-family: Arial;
+overflow: hidden;
+position:absolute;
+top:760px;
+left:630px;
+}
+
+.button1:active 
+{
+  box-shadow: 0 0 0;
+  transform: translateY(3px);
+}
+
+
+#footer
+{
+background-color:#000000;
+        float: right;
+        height: 330px;
+        left: 0;
+		overflow: hidden;
+        position: absolute;
+        width: 100%;
+		opacity:0.9;
+		text-align:left;
+		top:830px;
+		bottom:0;
+		min-width:1200px;
+}
+
+#footer p 
+{
+    box-sizing: border-box;
+    float: left;
+    padding: 1em;
+    width: 16.666%;
+}
+
+a, u 
+{
+    text-decoration: none;
+	color: inherit;
+}
+
+a2 
+{
+    text-decoration: none;
+	color: inherit;
+}
+
+a2.specialeffects:hover
+ {
+  color:#FFFFFF;
+  text-decoration:none;
+  cursor:pointer;
+}
+
+
+
+
+
+
